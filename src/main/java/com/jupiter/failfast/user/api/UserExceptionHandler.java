@@ -19,8 +19,8 @@ import java.util.stream.Collectors;
 
 import static org.springframework.http.HttpStatus.BAD_REQUEST;
 
-@ControllerAdvice
-public class GlobalExceptionHandler {
+@ControllerAdvice(basePackages = "com.jupiter.failfast.user.api")
+public class UserExceptionHandler {
 
     @ExceptionHandler(UserExistException.class)
     @ResponseStatus(BAD_REQUEST)
