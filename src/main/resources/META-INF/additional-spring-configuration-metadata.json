@@ -1,0 +1,19 @@
+{
+  "properties": [
+    {
+      "name": "notification.base_url",
+      "type": "java.lang.String",
+      "description": "notification service base url like http://notification"
+    },
+    {
+      "name": "notification.port",
+      "type": "java.lang.Integer",
+      "description": "notification service port like 8000"
+    },
+    {
+      "name": "notification.resource",
+      "type": "java.lang.String",
+      "description": "resource of notification service like users"
+    }
+  ]
+}

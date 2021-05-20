@@ -1,0 +1,8 @@
+notification:
+  port: 80
+  resource: users
+  base_url: http://notification
+
+
+
+
